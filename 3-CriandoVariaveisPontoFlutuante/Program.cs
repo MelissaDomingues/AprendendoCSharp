@@ -19,11 +19,7 @@ class Programa
         Console.WriteLine("Exemplo de divisão double: " + divisao2);
         Console.WriteLine("Nos dois exemplos foram usados os mesmos números = 7/5.");
 
-        Console.WriteLine("Tecle enter para encerrar");
-
-        
-
-        
+        Console.WriteLine("Tecle enter para encerrar");        
     }
 
 }
