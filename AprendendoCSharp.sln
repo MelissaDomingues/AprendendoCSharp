@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-OlaMundo", "1-OlaMundo\1-OlaMundo.csproj", "{8EE0C7E7-B267-4C72-A7E6-B59047B9518B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-CriandoVariáveis", "2-CriandoVariáveis\2-CriandoVariáveis.csproj", "{BB204AB4-8476-4862-81E2-D51F03198872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE0C7E7-B267-4C72-A7E6-B59047B9518B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE0C7E7-B267-4C72-A7E6-B59047B9518B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE0C7E7-B267-4C72-A7E6-B59047B9518B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE0C7E7-B267-4C72-A7E6-B59047B9518B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB204AB4-8476-4862-81E2-D51F03198872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB204AB4-8476-4862-81E2-D51F03198872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB204AB4-8476-4862-81E2-D51F03198872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB204AB4-8476-4862-81E2-D51F03198872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14F3F9FC-E599-485B-BEAD-FC8C6BB17AE9}
+	EndGlobalSection
+EndGlobal
