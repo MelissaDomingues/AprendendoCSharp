@@ -12,7 +12,7 @@ class Programa
         idade = 25;
         //nesse caso o print continua sendo 30 enão 25
         //a leitura é feita de modo linear, então não da pra alterar o valor de uma variável que ja tem um valor (pelo ou menos até agora não rs)
-
+        //"Variáveis guardam valores e não referências"
 
 
         Console.WriteLine("Tecle enter para fechar!");
