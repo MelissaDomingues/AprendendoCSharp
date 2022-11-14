@@ -25,8 +25,7 @@ class Programa
             }
         }
           
-        //if e else são comandos do tipo boolean. Só tem um de dois valores possíveis: verdadeiro ou falso.
-
+       
 
         Console.WriteLine("Tecle enter para fechar!");
         Console.ReadLine();
