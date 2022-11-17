@@ -6,14 +6,10 @@ class Programa
         Console.WriteLine("Executando projeto  7 - Condicionais");
 
         string nome = "João";
-        int idade = 12;
+        int idade = 15;
         int acompanhantes = 2;
 
-        bool acompanhado = acompanhantes > 1;
-        bool grupo = true;
-
-
-        if (idade >= 18 || acompanhantes > 1)
+        if (idade >= 18 || acompanhantes > 0) 
         {
             Console.WriteLine(nome + "...Pode entrar. Aproveite a festa!");
         }
@@ -21,6 +17,8 @@ class Programa
         {
             Console.WriteLine("Desculpe, mas " + nome + ",não pode entrar!");            
         }
+        //diferente do exercício anterior, aqui foi usado "ou" representado por "||"
+        //isso descarta a necessidade de criar outro if and else no código, deixando mais limpo e mais simples.
 
 
 
@@ -29,3 +27,4 @@ class Programa
     }
 
 }
+
