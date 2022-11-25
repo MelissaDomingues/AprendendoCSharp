@@ -3,23 +3,20 @@ class Programa
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Projeto 11 - Calcula poupança 2 " );
+        Console.WriteLine("Projeto 11 - Calcula poupança 2 ");
 
+       
         double investimento = 1000;
-
-        int mes = 1;
-
-        while (mes <= 12)  
+       
+        for (int mes = 1; mes <= 12; mes = mes + 1)
         {
-            investimento = investimento + investimento * 0.005;
+            investimento *= 1.005;
             Console.WriteLine("No mês " + mes + " você tem R$ " + investimento);
-
-            mes = mes + 1; 
         }
-        
+
         Console.WriteLine("Tecle enter para fechar!");
         Console.ReadLine();
-    } 
+    }
 
 
 }
