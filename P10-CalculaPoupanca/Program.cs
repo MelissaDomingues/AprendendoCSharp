@@ -16,7 +16,7 @@ class Programa
 
             mes = mes + 1; 
         }
-        
+
         Console.WriteLine("Tecle enter para fechar!");
         Console.ReadLine();
     } 
